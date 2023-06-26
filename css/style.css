@@ -11,15 +11,18 @@ header {
     right: 0;
     z-index: 1;
     min-height: 80px;
-    border: 1px solid black;
+    background-color: white;
 }
-
+body{
+    overflow-x: hidden;
+}
 nav {
     height: 80px;
     line-height: 80px;
 }
 
-/*  FLEX  */
+        /*  FLEX  */
+
 .align-it-cent {
     display: flex;
     align-items: center;
@@ -31,6 +34,7 @@ nav {
 }
 
 .just-cont-cent {
+    display: flex;
     justify-content: center;
 }
 
@@ -38,15 +42,55 @@ nav {
     display: flex;
     flex-direction: row;
 }
+.dir-col{
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ali-it-end{
+    display: flex;
+    align-items: flex-end;
+}
 
     /* CONTAINER */
+
 .full-container {
     width: 100vw;
     height: 80px;
 
 }
+.container-jumb{
+    max-height: 835px;
+    width: 100vw;
+    padding-top: 180px;
+    background-color: #B4D0E7;
+}
+
+.medium-container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    width: 100%;
+}
+
+.col-left{
+    width: 30%;
+}
+
+.col-right{
+    width: 70%;
+}
+.col-left, .col-right, .title{
+    padding: 20px;
+}
 
     /*  UTILITI */
+
 .generic-button {
     padding: 0.5rem 1rem;
     border-radius: 0;
@@ -63,10 +107,23 @@ ul {
 }
 
 nav > ul > li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 li.padd-top {
     height: 80px;
     padding-top: 10px;
+}
+h1{
+    font-size: 6rem;
+}
+.col-right > img{
+    width: 100%;
+}
+.col-left > button{
+    margin: 50px 0;
+}
+.arrow{
+    height: 25%;
+    font-size: 2rem;
 }
