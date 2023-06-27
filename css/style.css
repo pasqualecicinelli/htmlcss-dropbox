@@ -93,26 +93,26 @@ nav {
     padding-bottom: 50px;
 }
 
-.col-left {
+.col-30 {
     width: 30%;
 }
 
-.col-right>img {
+.col-70>img.jumb {
     margin-bottom: -160px;
 }
 
-.col-right {
+.col-70 {
     width: 70%;
 
 }
 
-.col-left,
-.col-right,
+.col-30,
+.col-70,
 .title {
     padding: 10px;
 }
 
-.container-three-col {
+.container-small {
     width: 1000px;
     margin: 150px auto;
 }
@@ -190,11 +190,11 @@ h3 {
 
 }
 
-.col-right>img {
+.col-70>img.jumb, .col-70 > img.partner {
     width: 100%;
 }
 
-.col-left>button {
+.col-30>button.blue-button {
     margin: 50px 0;
 }
 
@@ -248,10 +248,15 @@ h3 {
     border: 1px solid lightgray;
 }
 
-.marg-top-40 {
+.marg-top-30 {
+    margin-top: 30px;
+}
+.marg-top-40{
     margin-top: 40px;
 }
-
-.container-row>.top-col {
-    width: 100%;
+img.partner{
+    padding-right: 50px;
+}
+button.margin-t-b{
+    border: 1px solid black;
 }
