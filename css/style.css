@@ -189,8 +189,11 @@ h3 {
     font-size: 1.5rem;
 
 }
+.size-h2{
+    font-size: 2.5rem;
+}
 
-.col-70>img.jumb, .col-70 > img.partner {
+img.jumb, img.partner, img.pic-business {
     width: 100%;
 }
 
@@ -254,9 +257,21 @@ h3 {
 .marg-top-40{
     margin-top: 40px;
 }
+.marg-bot-40{
+    margin-bottom: 40px;
+}
+.marg-bot-80{
+    margin-bottom: 80px;
+}
 img.partner{
     padding-right: 50px;
 }
 button.margin-t-b{
     border: 1px solid black;
+}
+.text-cent{
+    text-align: center;
+}
+.border-none >.col-33{
+    border: 0;
 }
