@@ -25,7 +25,6 @@ nav {
 
 footer{
     background-color: black;
-    color: white;
 }
 
 /*  FLEX  */
@@ -208,7 +207,10 @@ nav>ul>li {
 ul {
     list-style: none;
 }
-
+li > a{
+    text-decoration: none;
+    color: black;
+}
 li.padd-top {
     height: 80px;
     padding-top: 10px;
@@ -329,18 +331,13 @@ button.margin-t-b {
 }
 
 .pad-bot {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .border-b-grey {
     border-bottom: 1px solid gray;
 }
-.wid{
-    width: 100%;
-}
-h4>.ali-end{
-   
-}
+
 .ali-end {
     display: block;
     text-align: end;
@@ -410,4 +407,16 @@ li>h3{
 }
 .color-grey{
     color: lightgray;
+}
+.fa-chevron-down{
+    margin-right:50px;
+    font-size: 0.75rem;
+}
+.bord-light-gray{
+    width: 100%;
+   border: 1px solid lightgray;
+}
+.col-5>ul>li>a,li>h3{
+    text-decoration: none;
+    color: white;
 }
