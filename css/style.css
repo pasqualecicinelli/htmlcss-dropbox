@@ -19,7 +19,7 @@ body {
 }
 
 nav {
-    height: 80px;
+    min-height: 80px;
     line-height: 80px;
 }
 
@@ -68,9 +68,13 @@ footer{
     display: flex;
     gap: 2%;
 }
+.gap-30{
+    display: flex;
+    gap: 30px;
+}
 .gap-50{
     display: flex;
-    gap: 50px
+    gap: 50px;
 }
 
 .ali-it-baseline {
@@ -105,7 +109,7 @@ footer{
 }
 
 .col-30 {
-    width: 30%;
+    max-width: 30%;
 }
 
 .col-70>img.jumb {
@@ -113,12 +117,11 @@ footer{
 }
 
 .col-70 {
-    width: 70%;
+    max-width: 70%;
 
 }
 .col-5{
-    width: calc((100% / 5) - 50px);
-    min-height: 80px;
+    max-width: calc((100% / 5) - 50px);
 }
 
 .box-50 {
@@ -133,12 +136,12 @@ footer{
 }
 
 .container-small {
-    width: 1000px;
+    max-width: 1000px;
     margin: 150px auto;
 }
 
 .col-33 {
-    width: 31%;
+    width: calc((100% / 3) - 30px);
     border: 1px solid lightgray;
 }
 
@@ -159,7 +162,7 @@ footer{
 }
 
 .box-col-33 {
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
 }
 
 .full-container>.container-small {
@@ -275,8 +278,17 @@ img.pic-business {
     line-height: 40px;
     height: 40px;
     border: 1px solid lightgray;
+    
 }
+.col-33>.top-col{
+    border-top: none;
+    border-left: none;
+    border-right: none;
 
+}
+.container-row>.top-col{
+    border-bottom: none;
+}
 .inside-col {
     margin: 20px;
 }
