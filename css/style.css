@@ -432,3 +432,11 @@ li>h3{
     text-decoration: none;
     color: white;
 }
+h2.break{
+    max-width:650px;
+    word-wrap: break-word;
+}
+.break-small{
+    max-width: 600px;
+    word-wrap: break-word;
+}
