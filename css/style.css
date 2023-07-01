@@ -424,9 +424,8 @@ li>h3{
     margin-right:50px;
     font-size: 0.75rem;
 }
-.bord-light-gray{
-    width: 100%;
-   border: 1px solid lightgray;
+.bord-bot-light-gray{
+   border-bottom: 1px solid lightgray;
 }
 .col-5>ul>li>a,li>h3{
     text-decoration: none;
